@@ -1,0 +1,94 @@
+#concept {
+        width: 100%;
+        background: linear-gradient(to bottom, #A193861F 0%, #A193861F 42%, #A1938689 42%, #A1938689 100%);
+
+}
+.inner{
+    width: 88%;
+    margin: 0 auto;
+}
+.inner span{
+    height: 41.3rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    @include sp{
+       justify-content: center;
+    }
+    .concept_item_1{
+        width: 67.5rem;
+        background-image: url(../img/andrew-neel-f480QIEvwGI-unsplash@2x.png);
+        background-size:contain;
+        background-repeat:no-repeat; 
+       
+        @include sp {
+            width: 44%;
+            height: 60rem;
+            background-size: cover;
+            background-position: right 100px top 0px;
+        }
+        
+    }
+    .concept_item_2{
+        
+        width: 39.1rem;
+        margin-left:1.1rem ;
+        background-image: url(../img/joel-mott-mNYL0surXh8-unsplash@2x.png);
+        background-size:contain;
+        background-repeat:no-repeat; 
+
+        @include sp {
+            width: 44%;
+            height: 60rem;
+            background-size: cover;
+        }
+    }
+
+}
+
+.inner section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    padding: 7rem 0;
+    @include sp{
+        width: 100%;
+         flex-direction: column;
+         margin: 20rem 0 ;
+         
+        
+        
+        
+    }
+
+
+  .concept-logo{
+      
+      font-family: ヒラギノ明朝 Pro;
+       font-size: 4rem;
+       margin-right: 80px;
+       padding-bottom:5rem ;
+       @include sp {
+    
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+       
+
+    }
+    .concept-text{
+        
+        font-family: ヒラギノ角ゴ Pro;
+       font-size: 1.6rem;
+      
+       
+    }
+
+}
+
+
+
+
+

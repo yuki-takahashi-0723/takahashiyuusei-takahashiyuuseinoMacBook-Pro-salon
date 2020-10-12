@@ -1,0 +1,52 @@
+#access{
+    width: 100%;
+    background-color:#A193861F;
+    position: relative;
+    height: 76rem;
+}
+
+#access .title{
+    padding-left: 10rem;
+}
+
+.access_oll{
+    position: absolute;
+    
+}
+
+
+.access_wrap {
+    background-color:#D0C5BA ;
+    display: flex;
+    justify-content: space-between;
+    width: 1282px;
+    @include sp {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.access_content{
+    margin-top: 10.1rem;
+    margin-left: 10.4em;
+
+    @include sp{
+        margin:3rem ;
+
+    }
+
+
+    
+    &_name{
+        font-size: 2.4rem;
+        color: #00000038;
+        padding-bottom: 30px;
+    }
+    &_text{
+        font-size: 1.6rem;
+        color: white;
+        line-height: 40px;
+       
+    }
+
+}
